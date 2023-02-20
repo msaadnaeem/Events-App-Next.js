@@ -1,0 +1,35 @@
+.cardcontainer {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 1rem;
+  margin: 2rem;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  border-radius: 8px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  transition: transform 0.3s;
+}
+
+.card:hover {
+  transform: translateY(-4px);
+}
+
+.cardimage {
+  height: 200px;
+  object-fit: cover;
+}
+
+.cardtitle {
+  font-size: 1.5rem;
+  margin: 1rem 0;
+}
+
+.carddescription {
+  font-size: 1rem;
+  line-height: 1.5;
+  margin-bottom: 1rem;
+}

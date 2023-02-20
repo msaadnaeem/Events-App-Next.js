@@ -1,0 +1,25 @@
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.25rem;
+  background-color: #ca8fe3;
+  box-shadow: 0 4px 6px rgba(250, 249, 251, 0.646);
+}
+
+.logo {
+  width: 100px; /* adjust this value to fit your logo size */
+}
+
+.links {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.link {
+  margin-left: 1rem; /* adjust this value to add spacing between links */
+  font-size: 1.2rem; /* adjust this value to change the font size */
+  color: #333333;
+  text-decoration: none;
+}
